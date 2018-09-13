@@ -1,0 +1,1 @@
+function QjSearch(e,n){var t=$(e).val();$(n).hide(),$.expr[":"].Contains=$.expr.createPseudo(function(n){return function(e){return 0<=$(e).text().toUpperCase().indexOf(n.toUpperCase())}}),$(n+':Contains("'+t+'")').show()}
