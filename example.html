@@ -18,7 +18,8 @@
 <script type="text/javascript" src="qj-search.js"></script>
 <script>
 $("#search_field").keyup(function() {
-QjSearch(".main #search_field","#cities .city_block");	
+QjSearch(this,"#cities .city_block");
+//QjSearch(".main #search_field","#cities .city_block"); //custom field	
 });
 </script>
 <style>
