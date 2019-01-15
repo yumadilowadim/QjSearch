@@ -20,3 +20,5 @@ data-qjs-1    - element visible fot not empty results
 $("#search_field").qjsearch();  -  custom field function
 $("input[data-gjs!='']").qjsearch();  -  universal function
 ```
+
+Demo: [https://yumadilowadim.github.io/QjSearch/](https://yumadilowadim.github.io/QjSearch/)
